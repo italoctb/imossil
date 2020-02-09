@@ -1,0 +1,317 @@
+@font-face {
+	font-family: Futura;
+	src: url(../fonts/futura_medium_bt.ttf);
+}
+
+@font-face {
+	font-family: Futura-B;
+	src: url(../fonts/Futura_Bold_font.ttf);
+}
+
+.no-pad{
+	padding: 0!important;
+}
+
+.social-perso ul{
+	margin-bottom: 10px;
+}
+
+.social-perso ul li{
+	width: 25px;
+	height: 25px;
+	background: #007936;
+	margin-right: 8px!important;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.social-perso ul li:hover{
+	background: #dcdbe0;
+}
+
+.social-perso ul li:hover a i{
+	background: #dcdbe0;
+	color: #007936;
+}
+
+.social-perso ul li a i{
+	color: whitesmoke;
+	position: relative;
+	left: 6px;
+	top: 1px;
+}
+
+.header-area .main-header-area .main-menu-perso nav ul li a{
+	color: #2957a4!important;
+	font-weight: bold;
+}
+
+.hg-ajust{
+	height: 800px !important;
+	background-size: cover!important;
+}
+
+.about_area{
+	padding-top: 120px;
+}
+
+.section_title_perso h3{
+	font-family: Futura;
+	font-weight: bold;
+	color: #007936;
+}
+
+.about_area .about_info_perso p{
+	font-family: Futura;
+	color: #2957a4;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.offers_area .single_offers_perso h3{
+	font-family: Futura;
+	font-weight: bold;
+	color: #2957a4;
+}
+
+.offers_area .single_offers_perso ul li{
+	font-family: Futura;
+	color: #2957a4;
+
+}
+
+.book_now{
+	color: #2957a4;
+	border-color: #2957a4;
+	font-family: Futura;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.book_now:hover{
+	background: #2957a4;
+}
+
+.features_room .rooms_here .single_rooms {
+	position: relative;
+	width: 33.33%;
+	float: left;
+}
+
+.call-flag{
+	background: #007936;
+	padding: 80px 0;
+}
+
+.call-flag h4{
+	font-family: Futura;
+	font-size: 28px;
+	font-weight: 600;
+	color: white;
+}
+
+.call-flag p{
+	font-family: Futura;
+	font-size: 20px;
+	color: white;
+}
+
+.rs-container{
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 0px 20px;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 20px;
+	font-family: Futura;
+	transition: ease 200ms;
+}
+
+.rs-container a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.rs-container a i{
+	font-size: 26px;
+	margin-right: 8px;
+}
+
+.rs-container div{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: white;
+	border-radius: 100%;
+	margin-right: 8px;
+	position: relative;
+	top: 5px;
+	transition: ease 200ms;
+}
+
+.rs-container:hover{
+	background: #dcdbe0;
+	color: #dcdbe0;
+	border-color: #dcdbe0;
+}
+
+.rs-container:hover a{
+	color: #007936;
+}
+
+.boxed-btn {
+	background: #007936;
+	color: #fff!important;
+	display: inline-block;
+	padding: 10px 44px;
+	font-family: Futura;
+	font-size: 14px;
+	font-weight: 900;
+	border-radius: 11px;
+	border: 1px solid #007936;
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.footer .footer_top {
+	padding: 50px
+}
+
+.footer{
+	background: #007936;
+}
+
+.footer .footer_top .footer_widget .footer_title {
+	margin-bottom: 10px;
+}
+
+.form-group input, .form-group textarea{
+	border: 2px solid #007936!important;
+}
+
+p {
+	font-family: 'Futura';
+}
+
+.footer .footer_top .footer_widget p.footer_text {
+	color: white;
+}
+.form-group input::placeholder, .form-group textarea::placeholder{
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#fix-it{
+	height: 291px;
+}
+
+.boxed-btn:hover {
+	background: #04632e;
+	color: #fff !important;
+	border: 1px solid #04632e;
+}
+
+h3{
+	font-family: Futura;
+}
+
+.contact-info .media-body p {
+	font-family: Futura;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+#fix-it-fb{
+	left: 9px;
+}
+
+#atdr-2{
+	display: none!important;
+}
+@media screen and (max-width: 500px){
+	.form-group.mt-3{
+		text-align: center;
+	}
+
+	#fix-it{
+		height: initial;
+	}
+
+	.features_room .rooms_here .single_rooms {
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+
+	.call-flag{
+		text-align: center;
+	}
+
+	.rs-container{
+		margin-top: 20px;
+	}
+
+	#fix-it-fb{
+		left: 5px;
+	}
+	
+	#atdr-2{
+		display: initial!important;
+	}
+
+	#atdr-2 .img_2 div{
+		background-position: 0!important;
+		position: relative!important;
+		right: 10px!important;
+	}
+	
+	#atdr-1{
+		display: none !important;
+	}
+
+	.section_title_perso h3{
+		margin-top: 30px;
+	}
+
+	.logo-img a img{
+		height: initial!important;
+	}
+}
+/*.nice-select.select-ano{*/
+/*	width: 60%;*/
+/*	border-radius: 8px;*/
+/*	color: #C42F59;*/
+/*	font-weight: bold;*/
+/*}*/
+
+/*input::placeholder{*/
+/*	color: #C42F59;*/
+/*	font-weight: bold;*/
+/*	transition: linear 0.2s;*/
+/*}*/
+
+/*input:focus::placeholder{*/
+/*	color: #999999;*/
+/*	font-weight: bold;*/
+/*}*/
+
+
